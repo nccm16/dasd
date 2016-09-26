@@ -1,0 +1,108 @@
+<style>
+body {
+    background-color: #696969;
+}
+div.static {
+    position: fixed;
+    left: 300px;
+    top: 50px;
+}
+div.static1 {
+    position: fixed;
+    left: 300px;
+    top: 80px;
+}
+div.static2 {
+    position: fixed;
+    left: 300px;
+    top: 110px;
+}
+div.static3 {
+    position: fixed;
+    left: 300px;
+    top: 140px;
+}
+div.static4 {
+    position: fixed;
+    left: 300px;
+    top: 170px;
+}
+div.static5 {
+    position: fixed;
+    left: 300px;
+    top: 200px;
+}
+div.static6 {
+    position: fixed;
+    left: 300px;
+    top: 230px;
+}
+div.static7 {
+    position: fixed;
+    left: 300px;
+    top: 260px;
+}
+div.static8 {
+    position: fixed;
+    left: 300px;
+    top: 290px;
+}
+div.static9 {
+    position: fixed;
+    left: 205px;
+    top: 330px;
+}
+div.static10 {
+    position: fixed;
+    left: 250px;
+    top: 360px;
+}
+</style>
+<style>
+div.bleh1 {
+    position: fixed;
+    left:60px;
+    top: 50px;
+}
+div.bleh2 {
+    position: fixed;
+    left: 60px;
+    top: 80px;
+}
+div.bleh3 {
+    position: fixed;
+    left: 60px;
+    top: 110px;
+}
+div.bleh4 {
+    position: fixed;
+    left: 60px;
+    top: 140px;
+}
+div.bleh5 {
+    position: fixed;
+    left: 60px;
+    top: 170px;
+}
+div.bleh6 {
+    position: fixed;
+    left: 60px;
+    top: 200px;
+}
+div.bleh7 {
+    position: fixed;
+    left:60px;
+    top: 230px;
+}
+div.bleh8 {
+    position: fixed;
+    left: 60px;
+    top: 260px;
+}
+div.bleh9 {
+    position: fixed;
+    left: 60px;
+    top: 290px;
+}
+
+</style>
