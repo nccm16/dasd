@@ -44,8 +44,7 @@
 
 <p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
 
-<p>&lt;!docutype HTML&gt;
-</p>
+
 
 
 <div>
@@ -96,6 +95,230 @@
     <br>
 </div>
 
+<!DOCTYPE html>
+<html>
+<style>
+body {
+    background-color: #696969;
+}
+div.static {
+    position: fixed;
+    left: 300px;
+    top: 50px;
+}
+div.static1 {
+    position: fixed;
+    left: 300px;
+    top: 80px;
+}
+div.static2 {
+    position: fixed;
+    left: 300px;
+    top: 110px;
+}
+div.static3 {
+    position: fixed;
+    left: 300px;
+    top: 140px;
+}
+div.static4 {
+    position: fixed;
+    left: 300px;
+    top: 170px;
+}
+div.static5 {
+    position: fixed;
+    left: 300px;
+    top: 200px;
+}
+div.static6 {
+    position: fixed;
+    left: 300px;
+    top: 230px;
+}
+div.static7 {
+    position: fixed;
+    left: 300px;
+    top: 260px;
+}
+div.static8 {
+    position: fixed;
+    left: 300px;
+    top: 290px;
+}
+div.static9 {
+    position: fixed;
+    left: 205px;
+    top: 330px;
+}
+div.static10 {
+    position: fixed;
+    left: 250px;
+    top: 360px;
+}
+</style>
+<style>
+div.bleh1 {
+    position: fixed;
+    left:60px;
+    top: 50px;
+}
+div.bleh2 {
+    position: fixed;
+    left: 60px;
+    top: 80px;
+}
+div.bleh3 {
+    position: fixed;
+    left: 60px;
+    top: 110px;
+}
+div.bleh4 {
+    position: fixed;
+    left: 60px;
+    top: 140px;
+}
+div.bleh5 {
+    position: fixed;
+    left: 60px;
+    top: 170px;
+}
+div.bleh6 {
+    position: fixed;
+    left: 60px;
+    top: 200px;
+}
+div.bleh7 {
+    position: fixed;
+    left:60px;
+    top: 230px;
+}
+div.bleh8 {
+    position: fixed;
+    left: 60px;
+    top: 260px;
+}
+div.bleh9 {
+    position: fixed;
+    left: 60px;
+    top: 290px;
+}
+
+</style>
+<form>
+<div class="bleh1">
+   <input type="text" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</div>
+<div class="bleh2">
+   <input type="text" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</div>
+<div class="bleh3">
+   <input type="text" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</div>
+<div class="bleh4">
+   <input type="text" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</div>
+<div class="bleh5">
+   <input type="text" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</div>
+ <div class="bleh6">
+   <input type="text" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</div>
+<div class="bleh7">
+   <input type="text" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</div>
+<div class="bleh8">
+   <input type="text" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</div>
+<div class="bleh9">
+   <input type="text" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=</div>
+<div class="static9">
+    <input type="button" value="End intiative pass" onclick="reduceValue1();reduceValue2();reduceValue3();reduceValue4();reduceValue5();reduceValue6();reduceValue7();reduceValue8();reduceValue9();" /></div>
+<div class="static">
+    <input type="number" id="number1" name="quantity" ><br></div>
+<div class="static1">
+    <input type="number" id="number2" name="quantity"><br></div>
+<div class="static2">
+    <input type="number" id="number3" name="quantity"><br></div>
+<div class="static3">
+    <input type="number" id="number4" name="quantity" ><br></div>
+<div class="static4">
+    <input type="number" id="number5" name="quantity" ><br></div>
+<div class="static5">
+    <input type="number" id="number6" name="quantity" ><br></div>
+<div class="static6">
+    <input type="number" id="number7" name="quantity"  ><br></div>
+<div class="static7">
+    <input type="number" id="number8" name="quantity" ><br></div>
+<div class="static8">
+    <input type="number" id="number9" name="quantity" ><br></div>
+</form>
+</html>
+<script>
+function addValue1()
+{
+    var value = parseInt(document.getElementById('number1').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value + 10;
+    document.getElementById('number1').value = value;
+}
+function reduceValue1()
+{
+    var value = parseInt(document.getElementById('number1').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number1').value = value;
+}
+function reduceValue2()
+{
+    var value = parseInt(document.getElementById('number2').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number2').value = value;
+}
+function reduceValue3()
+{
+    var value = parseInt(document.getElementById('number3').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number3').value = value;
+}
+function reduceValue4()
+{
+    var value = parseInt(document.getElementById('number4').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number4').value = value;
+}
+function reduceValue5()
+{
+    var value = parseInt(document.getElementById('number5').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number5').value = value;
+}
+function reduceValue6()
+{
+    var value = parseInt(document.getElementById('number6').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number6').value = value;
+}
+function reduceValue7()
+{
+    var value = parseInt(document.getElementById('number7').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number7').value = value;
+}
+function reduceValue8()
+{
+    var value = parseInt(document.getElementById('number8').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number8').value = value;
+}
+function reduceValue9()
+{
+    var value = parseInt(document.getElementById('number9').value, 10);
+    value = isNaN(value) ? 0 : value;
+    value = value - 10;
+    document.getElementById('number9').value = value;
+}
+   
+</script>
 
 <p></p>
 
